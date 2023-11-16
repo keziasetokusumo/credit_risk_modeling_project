@@ -32,4 +32,4 @@ The file `credit_risk_dataset.csv` contains the credit history of customers who 
 The column `loan_status` will serve as the target variable in our analysis. The target variable's unique values are 0 and 1. A value of 0 denotes non-default and a value of 1 denotes default.
 
 ## Data analysis and reproducibility
-The ('https://github.com/keziasetokusumo/credit_risk_modeling_project/blob/main/credit-analysis.ipynb') includes code that will automatically download and install the required spreadsheet and libraries for users who don't have the relevant Python libraries or datasets.
+The [Jupyter Notebook]('https://github.com/keziasetokusumo/credit_risk_modeling_project/blob/main/credit-analysis.ipynb') includes code that will automatically download and install the required spreadsheet and libraries for users who don't have the relevant Python libraries or datasets.
