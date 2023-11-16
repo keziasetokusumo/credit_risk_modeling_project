@@ -29,7 +29,13 @@ The file `credit_risk_dataset.csv` contains the credit history of customers who 
 
 * `cb_preson_cred_hist_length`:	Credit history length
 
-The column `loan_status` will serve as the target variable in our analysis. The target variable's unique values are 0 and 1. A value of 0 denotes non-default and a value of 1 denotes default.
+The column `loan_status` will serve as the target variable in our analysis. The target variable's unique values are 0 and 1. A value of 0 denotes non-default, and 1 denotes default.
 
 ## Data analysis and reproducibility
 The [Jupyter Notebook](https://github.com/keziasetokusumo/credit_risk_modeling_project/blob/main/credit-analysis.ipynb) includes code that will automatically download and install the required spreadsheet and libraries for users who don't have the relevant Python libraries or datasets.
+
+## Method
+This project deals with a classification problem, as we're building a model to predict if a customer defaults. We start by preprocessing and cleaning the original dataset, and the procedure consists of:
+* Filling null values
+* Assigning numerical values to categorical columns
+* Removing highly correlated predictor variables
