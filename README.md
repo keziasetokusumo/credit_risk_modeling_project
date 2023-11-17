@@ -1,5 +1,5 @@
 # Predicting Defaults on Personal Loans with Machine Learning Models
-![pawel-czerwinski-jkwWCG6wYcI-unsplash](https://github.com/keziasetokusumo/credit_risk_modeling_project/assets/111642763/66a97456-e678-4d73-8d8d-3e06a772696d)
+![cardmapr-nl-XH2JFgT4Abc-unsplash](https://github.com/keziasetokusumo/credit_risk_modeling_project/assets/111642763/262614f1-870b-445a-b6cc-8e5480865db0)
 
 ## Overview and problem statement
 Modeling credit risk is an extremely important task for many lenders and financial institutions. Accurate credit risk assessment helps lenders evaluate potential customers and helps firms assess their portfolio's risk exposure. This project aims to use machine learning algorithms to build a model that correctly predicts if a given customer will default on their loan and identifies the most relevant features.
