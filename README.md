@@ -111,3 +111,12 @@ Based on the analysis, some suggestions to lenders and financial institutions fo
 More details can be found in this [Jupyter Notebook](https://github.com/keziasetokusumo/credit_risk_modeling_project/blob/main/credit-analysis.ipynb). A deliverable summarizing the project can also be found [here](https://github.com/keziasetokusumo/credit_risk_modeling_project/blob/main/deliverable.pdf).
 
 ## Repository structure
+```
+├── credit-risk-dataset
+├── images
+├── .gitignore                         
+├── README.md                                      
+├── credit-analysis.ipynb 
+├── deliverable.pdf
+└──
+```
