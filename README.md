@@ -36,7 +36,7 @@ The original dataset isn't evenly distributed, as we have more information for '
 
 <img width="396" alt="Screen Shot 2023-11-17 at 7 50 13 AM" src="https://github.com/keziasetokusumo/credit_risk_modeling_project/assets/111642763/cfc97871-4e4e-42c8-b30b-9eff252bc2de">
 
-We deal with this issue later in our analysis while testing different algorithms.
+We deal with this issue later in our analysis while testing different algorithms. Specifically, we employ the SMOTE() method to synthesize new examples from the minority (default) class to fix the skewed target distribution.
 
 ## Data analysis and reproducibility
 The [Jupyter Notebook](https://github.com/keziasetokusumo/credit_risk_modeling_project/blob/main/credit-analysis.ipynb) includes code that will automatically download and install the required spreadsheet and libraries for users who don't have the relevant Python libraries or datasets.
