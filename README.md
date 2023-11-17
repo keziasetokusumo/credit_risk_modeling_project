@@ -68,5 +68,4 @@ The XGBoost model returns the best scores. XGBoost is a tree-boosting model that
 
 Since we have many predictor variables (22 columns after data processing), we generated a bar graph that plots the corresponding F-score against the columns we used in our analysis and limited the number of features to 10. F-score relates to the frequency with which the model uses a given independent variable to split a tree. The higher the F-score, the more relevant the feature is. Our top 10 predictor variables are shown below:
 
-<img width="345" alt="Screen Shot 2023-11-17 at 7 52 20 AM" src="https://github.com/keziasetokusumo/credit_risk_modeling_project/assets/111642763/8bd1911a-31ee-4329-afaa-4dc1e96367d1">
-
+<img width="531" alt="Screen Shot 2023-11-17 at 8 04 36 AM" src="https://github.com/keziasetokusumo/credit_risk_modeling_project/assets/111642763/16febf7e-f19e-4a75-a6f8-6503349eb2ca">
