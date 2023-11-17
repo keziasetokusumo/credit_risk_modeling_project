@@ -69,3 +69,45 @@ The XGBoost model returns the best scores. XGBoost is a tree-boosting model that
 Since we have many predictor variables (22 columns after data processing), we generated a bar graph that plots the corresponding F-score against the columns we used in our analysis and limited the number of features to 10. F-score relates to the frequency with which the model uses a given independent variable to split a tree. The higher the F-score, the more relevant the feature is. Our top 10 predictor variables are shown below:
 
 <img width="531" alt="Screen Shot 2023-11-17 at 8 04 36 AM" src="https://github.com/keziasetokusumo/credit_risk_modeling_project/assets/111642763/16febf7e-f19e-4a75-a6f8-6503349eb2ca">
+
+With our final XGBoost model and plot of predictor variables, we can infer key recommendations for lenders and financial institutions when assessing a borrower's credit.
+
+## Conclusion and recommendations
+Of the 22 predictors that the algorithm used, the top 10 are: 
+
+1. `loan_int_rate`
+
+2. `person_income`
+
+3. `loan_amnt`
+
+4. `person_emp_length`
+
+5. `loan_percent_income`
+
+6. `cb_person_cred_hist_length`
+
+7. `person_home_ownership_RENT`
+
+8. `loan_grade_B`
+
+9. `loan_intent_PERSONAL`
+
+10. `cb_person_default_on_file_Y`
+
+Based on the analysis, some suggestions to lenders and financial institutions for mitigating risk include:
+
+* Reduce their exposure to loans with high interest rates
+* Diversify the income levels of their clients, with a greater proportion of their clients having higher incomes
+* Assess the face value of the loan taken against the proportion of the borrower's income
+* Look at some other less-obvious features, such as loan intent and home ownership status
+
+## Next steps and future analyses
+* Explore the impact of changing macro environments on credit defaults
+* Analyze a dataset of customers who have defaulted to identify threshold levels
+* Conduct a credit analysis on businesses, as many financial institutions invest in whole companies
+
+## Additional information
+More details can be found in this [Jupyter Notebook](https://github.com/keziasetokusumo/credit_risk_modeling_project/blob/main/credit-analysis.ipynb). A deliverable summarizing the project can also be found [here]().
+
+## Repository structure
