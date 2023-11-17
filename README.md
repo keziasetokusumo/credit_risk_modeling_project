@@ -108,6 +108,6 @@ Based on the analysis, some suggestions to lenders and financial institutions fo
 * Conduct a credit analysis on businesses, as many financial institutions invest in whole companies
 
 ## Additional information
-More details can be found in this [Jupyter Notebook](https://github.com/keziasetokusumo/credit_risk_modeling_project/blob/main/credit-analysis.ipynb). A deliverable summarizing the project can also be found [here]().
+More details can be found in this [Jupyter Notebook](https://github.com/keziasetokusumo/credit_risk_modeling_project/blob/main/credit-analysis.ipynb). A deliverable summarizing the project can also be found [here](https://github.com/keziasetokusumo/credit_risk_modeling_project/blob/main/deliverable.pdf).
 
 ## Repository structure
